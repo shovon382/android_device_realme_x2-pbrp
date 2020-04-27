@@ -130,7 +130,7 @@ SHRP_DEVICE_TYPE := A_Only
 endif
 
 #PBRP
-#BUILD_PBRP_REC := true
+BUILD_PBRP_REC := true
 ifeq ($(strip $(BUILD_PBRP_REC)),)
 # Highly doubt if these flags exist
 TW_USE_QCOM_HAPTICS_VIBRATOR := true
